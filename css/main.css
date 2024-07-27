@@ -1,0 +1,23 @@
+:root {
+    ---primary: #F23F8A;
+    --secondary: #01A0E1;
+    --accion-primary: #EDD95F;
+    --accion-secondary: #8F70DB;
+    --bg-primary: #000;
+    --bg-secondary: #f1f1f1;
+}
+
+.bg-page {
+    background-color: var(--bg-secondary);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: max-content;
+}
+
+.text-primary {
+    color: var(---primary);
+}
