@@ -9,10 +9,10 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background-color: var(--bg-primary);
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container {
@@ -91,5 +91,5 @@ button.no:hover {
 
 p {
     color: var(--bg-secondary);
-    font-size: 200%;
+    font-size: 300%;
 }
