@@ -1,8 +1,8 @@
 :root {
-    ---primary: #F23F8A;
+    --primary: #fa79af;
     --secondary: #01A0E1;
-    --accion-primary: #EDD95F;
-    --accion-secondary: #8F70DB;
+    --primary-hover: #bb517d;
+    --secondary-hover: #02719c;
     --bg-primary: #000;
     --bg-secondary: #f1f1f1;
 }
@@ -46,21 +46,12 @@ body {
     border-radius: 10px;
 }
 
-input[type="text"] {
-    padding: 10px;
-    margin-top: 10px;
-    width: 80%;
-    max-width: 400px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
 .primarybutton {
     padding: 10px 20px;
     margin: 10px;
     border: none;
     border-radius: 5px;
-    background-color: var(---primary);
+    background-color: var(--primary);
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -71,22 +62,18 @@ input[type="text"] {
     margin: 10px;
     border: none;
     border-radius: 5px;
-    background-color: var(--accion-secondary);
+    background-color: var(--secondary);
     color: white;
     cursor: pointer;
     font-size: 16px;
 }
 
-button:hover {
-    background-color: #0056b3;
+.primarybutton:hover {
+    background-color: var(--primary-hover);
 }
 
-button.no {
-    background-color: #dc3545;
-}
-
-button.no:hover {
-    background-color: #c82333;
+.secondarybutton:hover {
+    background-color: var(--secondary-hover);
 }
 
 p {
